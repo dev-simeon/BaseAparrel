@@ -180,4 +180,13 @@ button:hover {
         background-image: url(/images/hero-mobile.jpg);
         background-size: contain;
     }
+
+    .left-section{
+        position: relative;
+    }
+
+    .hero{
+        position: absolute;
+        top: 0em;
+    }
 }
