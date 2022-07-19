@@ -115,7 +115,7 @@ button:hover {
 
 
 
-/************************ MOBILE DESIGN *******************/
+/************************ TABLET DESIGN *******************/
 
 
 @media screen and (max-width :767px) {
@@ -144,7 +144,6 @@ button:hover {
     }
 
     .hero{
-        justify-content: start;
         width: 80%;
         margin: 0 auto 0;
         text-align: center;
@@ -172,14 +171,17 @@ button:hover {
         background-image: url(/images/hero-mobile.jpg);
         background-size: contain;
     }
+
+    @media screen and (max-width: 425px) {
+        .hero{
+          width: 100%;
+          margin: 0;
+        }
+    }
 }
 
 
-@media screen and (max-width: 280px) {
-    .right-section{
-        background-image: url(/images/hero-mobile.jpg);
-        background-size: contain;
-    }
+/* @media screen and (max-width: 280px) {
 
     .left-section{
         position: relative;
@@ -189,4 +191,4 @@ button:hover {
         position: absolute;
         top: 0em;
     }
-}
+} */
